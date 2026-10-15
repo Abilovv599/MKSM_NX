@@ -1,0 +1,18 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/abilovv599/Desktop/MKSM-NX/mksm-port/build/cmake_install.cmake",
+		"/Users/abilovv599/Desktop/MKSM-NX/mksm-port/build/xboxrecomp/cmake_install.cmake",
+		"/Users/abilovv599/Desktop/MKSM-NX/mksm-port/build/xboxrecomp/src/platform/cmake_install.cmake",
+		"/Users/abilovv599/Desktop/MKSM-NX/mksm-port/build/xboxrecomp/src/kernel/cmake_install.cmake",
+		"/Users/abilovv599/Desktop/MKSM-NX/mksm-port/build/xboxrecomp/src/d3d/cmake_install.cmake",
+		"/Users/abilovv599/Desktop/MKSM-NX/mksm-port/build/xboxrecomp/src/audio/cmake_install.cmake",
+		"/Users/abilovv599/Desktop/MKSM-NX/mksm-port/build/xboxrecomp/src/apu/cmake_install.cmake",
+		"/Users/abilovv599/Desktop/MKSM-NX/mksm-port/build/xboxrecomp/src/nv2a/cmake_install.cmake",
+		"/Users/abilovv599/Desktop/MKSM-NX/mksm-port/build/xboxrecomp/src/usb/cmake_install.cmake",
+		"/Users/abilovv599/Desktop/MKSM-NX/mksm-port/build/xboxrecomp/src/input/cmake_install.cmake",
+		"/Users/abilovv599/Desktop/MKSM-NX/mksm-port/build/xboxrecomp/src/video/cmake_install.cmake",
+		"/Users/abilovv599/Desktop/MKSM-NX/mksm-port/build/xboxrecomp/src/nv2a_gl/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

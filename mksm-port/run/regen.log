@@ -1,0 +1,165 @@
+  Rejected 1 seed(s) landing inside an already-decoded instruction
+  Realigned 2 call targets the sweep stepped over (0 rejected: bytes do not decode as a function)
+  51 function address(es) installed into indirect-call slots
+  conditional-branch orphans recovered as alias entries
+  tail-jump pass 0: +191 standalone, 22 aliases
+  tail-jump pass 1: +1 standalone, 22 aliases
+  137 function address(es) taken as an immediate
+  functions recovered that follow a ret with no padding
+  1601 function address(es) found in data tables
+Done in 43.53s
+Wrote 28191 ABI entries to /Users/abilovv599/Desktop/MKSM-NX/xboxrecomp/tools/abi_analysis/output/abi_functions.json (1105 detected as thiscall)
+Loading data files...
+  SEH helpers: __SEH_prolog 0x000EE018, __SEH_epilog 0x000EE053
+  CRT non-local jumps: setjmp 0x002AA578, longjmp 0x002AA4FC
+Loaded 28192 functions, 33676 labels, 32377 classifications, 28191 ABI entries in 37.3s
+
+Translating 28188 functions...
+Excluding 1 functions defined in /Users/abilovv599/Desktop/MKSM-NX/mksm-port/src/recomp_manual.c; 5 wrapped as sub_X_gen
+  wrote recomp_types.h (runtime register model)
+Poll loops marked with RECOMP_SPIN_HINT: 51
+MMIO accessors: 993 functions in DSOUND,XPP
+
+=== Split Translation Complete (49.8s) ===
+28187/28188 functions (0 failed), 2364549 lines of C, 113 source files
+162 unresolved call targets stubbed (addresses called but not detected as functions)
+754 instruction(s) unimplemented, emitted as no-op comments (39 distinct mnemonics):
+       185  outsb        e.g. 0x001C6E99
+       129  outsd        e.g. 0x000E8DC9
+       103  insb         e.g. 0x0011480C
+        91  arpl         e.g. 0x000E8DA9
+        59  insd         e.g. 0x004535C8
+        26  bound        e.g. 0x001BACC4
+        16  out          e.g. 0x0008EA1D
+        12  aas          e.g. 0x000E8D21
+        12  popfd        e.g. 0x0015A0F9
+        11  outsw        e.g. 0x004535F7
+        11  pushfd       e.g. 0x0015A0C5
+         9  cpuid        e.g. 0x003F578F
+         8  aaa          e.g. 0x00090ECC
+         8  in           e.g. 0x00053EE0
+         6  daa          e.g. 0x00454919
+         6  iretd        e.g. 0x002A65DC
+         6  les          e.g. 0x0008C531
+         6  sti          e.g. 0x000A2BBC
+         5  cli          e.g. 0x000F9A93
+         5  insw         e.g. 0x00453681
+    ... and 19 more
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_funcs.h
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0000.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0001.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0002.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0003.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0004.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0005.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0006.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0007.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0008.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0009.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0010.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0011.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0012.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0013.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0014.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0015.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0016.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0017.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0018.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0019.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0020.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0021.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0022.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0023.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0024.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0025.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0026.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0027.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0028.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0029.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0030.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0031.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0032.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0033.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0034.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0035.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0036.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0037.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0038.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0039.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0040.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0041.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0042.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0043.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0044.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0045.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0046.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0047.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0048.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0049.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0050.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0051.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0052.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0053.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0054.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0055.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0056.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0057.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0058.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0059.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0060.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0061.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0062.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0063.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0064.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0065.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0066.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0067.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0068.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0069.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0070.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0071.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0072.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0073.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0074.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0075.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0076.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0077.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0078.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0079.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0080.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0081.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0082.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0083.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0084.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0085.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0086.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0087.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0088.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0089.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0090.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0091.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0092.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0093.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0094.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0095.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0096.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0097.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0098.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0099.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0100.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0101.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0102.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0103.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0104.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0105.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0106.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0107.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0108.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0109.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0110.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0111.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_0112.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_stubs_unresolved.c
+  /Users/abilovv599/Desktop/MKSM-NX/gen/recomp_dispatch.c
+
+Summary: /Users/abilovv599/Desktop/MKSM-NX/xboxrecomp/tools/recomp/output/summary.json

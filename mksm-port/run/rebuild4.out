@@ -1,0 +1,2 @@
+mksm-port/tools/rebuild_and_run.sh: line 9: 11489 Alarm clock: 14         MKSM_GAME_DIR="$ROOT/game_files" perl -e "alarm ${RUN_SECS:-45}; exec @ARGV" ../build/mksm_recomp > "$NAME.log" 2>&1
+RUN_EXIT=142 log=run4.log
